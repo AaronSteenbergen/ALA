@@ -35,16 +35,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								<a class="nav-link font-weight-bold" href="/">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-weight-bold" href="/bookings">My bookings</a>
+								<a class="nav-link font-weight-bold" href="index.php/booking">My bookings</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-weight-bold" href="/contact">Contact</a>
+								<a class="nav-link font-weight-bold" href="index.php/contact">Contact</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-weight-bold" href="/register">Register</a>
+								<a class="nav-link font-weight-bold" href="index.php/register">Register</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-weight-bold" href="/login">Login</a>
+								<a class="nav-link font-weight-bold" href="index.php/login">Login</a>
 							</li>
 						</ul>
 				</nav>
@@ -62,9 +62,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			</div>
 		</form>
 	</section>
-	<?php $this->load->view('booking');?>
-
-	<?php $this->load->view('contact');?>
 	<script src="js/custom.js"></script>
 </body>
 
