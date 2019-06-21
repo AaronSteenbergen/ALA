@@ -35,16 +35,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								<a class="nav-link font-weight-bold" href="/">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-weight-bold" href="/bookings">My bookings</a>
+								<a class="nav-link font-weight-bold" href="index.php/booking">My bookings</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-weight-bold" href="/contact">Contact</a>
+								<a class="nav-link font-weight-bold" href="index.php/contact">Contact</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-weight-bold" href="/register">Register</a>
+								<a class="nav-link font-weight-bold" href="index.php/register">Register</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-weight-bold" href="/login">Login</a>
+								<a class="nav-link font-weight-bold" href="index.php/login">Login</a>
 							</li>
 						</ul>
 				</nav>
@@ -61,24 +61,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div><button class="booking_button trans_200">Book Now</button></div>
 			</div>
 		</form>
-	</section>
-	<section id="section-reserve">
-		<div id="body-container">
-			<div class="row">
-				<div class="col-md-5">
-					<img src="res\RoomPictur-1.jpg" class="img-fluid img-thumbnail" alt="Room Picture 1">
-				</div>
-				<div class="col-md-6">
-					<p class="hotel-info">*The minimum spend covers food and beverage
-						charges, all other agreed costs incurred (such as
-						extra security, DJ and AV hire etc) are additional
-						and to be paid by the client. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quis, voluptates debitis veniam harum ducimus rerum sint facilis minus corrupti reprehenderit velit laborum quod earum libero enim doloremque architecto aspernatur.</p>
-				</div>
-			</div>
-			<?php $this->load->view('booking'); ?>
-
-			<?php $this->load->view('contact'); ?>
-		</div>
 	</section>
 	<script src="js/custom.js"></script>
 </body>
