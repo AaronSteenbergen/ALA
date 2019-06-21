@@ -1,0 +1,135 @@
+html {
+    background-image: linear-gradient(#eee, #999);
+    min-height: 100%;
+    font-family: Times Roman sans-serif;
+}
+
+#container {
+    width: 760px;
+    margin: 0 auto;
+    height: 460px;
+    border: solid 1px #222;
+    padding: 0;
+    background: #fff url(../images/achtergrond.jpg) repeat;
+}
+
+#bovenkant {
+    float: left;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding: 0;
+}
+
+#bovenkant h2 {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 0.4cm;
+}
+
+#navigatie {
+    height: 86%;
+    background-color: black;
+    width: 20%;
+    float: left;
+}
+
+a:link,
+a:active,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#navigatie ul {
+    list-style-type: none;
+    padding: 0;
+    padding-right: 12px;
+}
+
+#navigatie ul li {
+    border: 1px solid black;
+    padding: 5px 1cm;
+    background-color: white;
+
+}
+
+#navigatie ul li:hover {
+    background-color: lightgray;
+}
+
+    #main {
+        width: 75.5%;
+        float: left;
+        margin: 0;
+        margin-left: 5px;
+    }
+
+#main-content {
+    margin-bottom: 20%;
+}
+
+#Kerntaken {
+    text-decoration: underline;
+}
+
+#foto {
+    float: right;
+    margin-top: 20px;
+    margin-right: -20px
+}
+
+#foto img {
+    width: 175px;
+    height: 160px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+body {
+    margin: 0;
+}
+
+#portfoliovoeter {
+    height: 1px;
+    width: 1px;
+    margin-bottom: 45px;
+}
+
+#Personaliavoeter {
+    height: 1px;
+    width: 1px;
+    margin-bottom: 127px;
+}
+
+#Opleidingvoeter {
+    height: 1px;
+    width: 1px;
+    margin-bottom: 12.5px;
+}
+
+#Linksvoeter {
+    height: 1px;
+    width: 1px;
+    margin-bottom: 168px;
+}
+
+#main #footer {
+    border-top: 2px solid black;
+    width: 100%;
+}
+
+#footer ul li {
+    float: left;
+    list-style-type: none;
+    margin-left: 5px;
+    padding-right: 0.5cm
+}
