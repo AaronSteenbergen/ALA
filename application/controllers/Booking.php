@@ -22,6 +22,8 @@ class Booking extends CI_Controller {
 		$this->load->model('bookingModel');
 		
 		// hopelijk weet je wat views doen.
+		$this->load->view('head.php');
+		$this->load->view('header');
 		$this->load->view('booking');
 	}
 }
