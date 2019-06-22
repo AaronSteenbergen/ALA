@@ -1,6 +1,8 @@
 <?php
 class Booking extends CI_Controller {
 
+	private $_data = array();
+
 	/**
 	 * Index Page for this controller.
 	 *
@@ -16,14 +18,24 @@ class Booking extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	function __construct() { 
+		parent::__construct(); 
+		$this->load->helper('url'); 
+		$this->load->database(); 
+	}
+
 	public function index()
 	{	
 		// zoals je misschien weet zorgt de model voor het ophalen van database zooi
 		$this->load->model('bookingModel');
+
+		// $_data = $this->BookingModel->load();
 		
 		// hopelijk weet je wat views doen.
 		$this->load->view('head.php');
 		$this->load->view('header');
 		$this->load->view('booking');
+		// $this->load->view('booking', $_data);
 	}
 }

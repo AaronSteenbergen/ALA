@@ -10,19 +10,19 @@
 						<img class="img-responsive" src="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/res/logo3.png'; ?>">
 						<ul class="nav navbar-nav">
 							<li class="nav-item active">
-								<a class="nav-link font-weight-bold" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/'; ?>">Home</a>
+								<a class="nav-link font-weight-bold" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/ALA/ALA/'; ?>">Home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-weight-bold" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/index.php/booking'; ?>">My bookings</a>
+								<a class="nav-link font-weight-bold" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/ALA/ALA/index.php/booking'; ?>">My bookings</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-weight-bold" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/index.php/contact'; ?>">Contact</a>
+								<a class="nav-link font-weight-bold" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/ALA/ALA/index.php/contact'; ?>">Contact</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-weight-bold" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/index.php/register'; ?>">Register</a>
+								<a class="nav-link font-weight-bold" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/ALA/ALA/index.php/register'; ?>">Register</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link font-weight-bold" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/index.php/login'; ?>">Login</a>
+								<a class="nav-link font-weight-bold" href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/ALA/ALA/index.php/login'; ?>">Login</a>
 							</li>
 						</ul>
 				</nav>
